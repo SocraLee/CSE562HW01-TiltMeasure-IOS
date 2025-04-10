@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEF2EBBB2DA86FD2005CC1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EBBA2DA86FD2005CC1D4 /* AppDelegate.swift */; };
+		FEF2EBBD2DA86FD2005CC1D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EBBC2DA86FD2005CC1D4 /* SceneDelegate.swift */; };
+		FEF2EBBF2DA86FD2005CC1D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EBBE2DA86FD2005CC1D4 /* ViewController.swift */; };
+		FEF2EBC22DA86FD2005CC1D4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FEF2EBC12DA86FD2005CC1D4 /* Base */; };
+		FEF2EBC42DA86FD5005CC1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF2EBC32DA86FD5005CC1D4 /* Assets.xcassets */; };
+		FEF2EBC72DA86FD5005CC1D4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FEF2EBC62DA86FD5005CC1D4 /* Base */; };
+		FEF2EBD22DA86FD5005CC1D4 /* TiltSensorDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EBD12DA86FD5005CC1D4 /* TiltSensorDemoTests.swift */; };
+		FEF2EBDC2DA86FD5005CC1D4 /* TiltSensorDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EBDB2DA86FD5005CC1D4 /* TiltSensorDemoUITests.swift */; };
+		FEF2EBDE2DA86FD5005CC1D4 /* TiltSensorDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EBDD2DA86FD5005CC1D4 /* TiltSensorDemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEF2EBCE2DA86FD5005CC1D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEF2EBAF2DA86FD2005CC1D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEF2EBB62DA86FD2005CC1D4;
+			remoteInfo = TiltSensorDemo;
+		};
+		FEF2EBD82DA86FD5005CC1D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEF2EBAF2DA86FD2005CC1D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEF2EBB62DA86FD2005CC1D4;
+			remoteInfo = TiltSensorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEF2EBB72DA86FD2005CC1D4 /* TiltSensorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiltSensorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF2EBBA2DA86FD2005CC1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEF2EBBC2DA86FD2005CC1D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEF2EBBE2DA86FD2005CC1D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEF2EBC12DA86FD2005CC1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEF2EBC32DA86FD5005CC1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEF2EBC62DA86FD5005CC1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEF2EBC82DA86FD5005CC1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF2EBCD2DA86FD5005CC1D4 /* TiltSensorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiltSensorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF2EBD12DA86FD5005CC1D4 /* TiltSensorDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltSensorDemoTests.swift; sourceTree = "<group>"; };
+		FEF2EBD72DA86FD5005CC1D4 /* TiltSensorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiltSensorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF2EBDB2DA86FD5005CC1D4 /* TiltSensorDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltSensorDemoUITests.swift; sourceTree = "<group>"; };
+		FEF2EBDD2DA86FD5005CC1D4 /* TiltSensorDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltSensorDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEF2EBB42DA86FD2005CC1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF2EBCA2DA86FD5005CC1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF2EBD42DA86FD5005CC1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEF2EBAE2DA86FD2005CC1D4 = {
+			isa = PBXGroup;
+			children = (
+				FEF2EBB92DA86FD2005CC1D4 /* TiltSensorDemo */,
+				FEF2EBD02DA86FD5005CC1D4 /* TiltSensorDemoTests */,
+				FEF2EBDA2DA86FD5005CC1D4 /* TiltSensorDemoUITests */,
+				FEF2EBB82DA86FD2005CC1D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEF2EBB82DA86FD2005CC1D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEF2EBB72DA86FD2005CC1D4 /* TiltSensorDemo.app */,
+				FEF2EBCD2DA86FD5005CC1D4 /* TiltSensorDemoTests.xctest */,
+				FEF2EBD72DA86FD5005CC1D4 /* TiltSensorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEF2EBB92DA86FD2005CC1D4 /* TiltSensorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FEF2EBBA2DA86FD2005CC1D4 /* AppDelegate.swift */,
+				FEF2EBBC2DA86FD2005CC1D4 /* SceneDelegate.swift */,
+				FEF2EBBE2DA86FD2005CC1D4 /* ViewController.swift */,
+				FEF2EBC02DA86FD2005CC1D4 /* Main.storyboard */,
+				FEF2EBC32DA86FD5005CC1D4 /* Assets.xcassets */,
+				FEF2EBC52DA86FD5005CC1D4 /* LaunchScreen.storyboard */,
+				FEF2EBC82DA86FD5005CC1D4 /* Info.plist */,
+			);
+			path = TiltSensorDemo;
+			sourceTree = "<group>";
+		};
+		FEF2EBD02DA86FD5005CC1D4 /* TiltSensorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEF2EBD12DA86FD5005CC1D4 /* TiltSensorDemoTests.swift */,
+			);
+			path = TiltSensorDemoTests;
+			sourceTree = "<group>";
+		};
+		FEF2EBDA2DA86FD5005CC1D4 /* TiltSensorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEF2EBDB2DA86FD5005CC1D4 /* TiltSensorDemoUITests.swift */,
+				FEF2EBDD2DA86FD5005CC1D4 /* TiltSensorDemoUITestsLaunchTests.swift */,
+			);
+			path = TiltSensorDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEF2EBB62DA86FD2005CC1D4 /* TiltSensorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF2EBE12DA86FD5005CC1D4 /* Build configuration list for PBXNativeTarget "TiltSensorDemo" */;
+			buildPhases = (
+				FEF2EBB32DA86FD2005CC1D4 /* Sources */,
+				FEF2EBB42DA86FD2005CC1D4 /* Frameworks */,
+				FEF2EBB52DA86FD2005CC1D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiltSensorDemo;
+			productName = TiltSensorDemo;
+			productReference = FEF2EBB72DA86FD2005CC1D4 /* TiltSensorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEF2EBCC2DA86FD5005CC1D4 /* TiltSensorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF2EBE42DA86FD5005CC1D4 /* Build configuration list for PBXNativeTarget "TiltSensorDemoTests" */;
+			buildPhases = (
+				FEF2EBC92DA86FD5005CC1D4 /* Sources */,
+				FEF2EBCA2DA86FD5005CC1D4 /* Frameworks */,
+				FEF2EBCB2DA86FD5005CC1D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEF2EBCF2DA86FD5005CC1D4 /* PBXTargetDependency */,
+			);
+			name = TiltSensorDemoTests;
+			productName = TiltSensorDemoTests;
+			productReference = FEF2EBCD2DA86FD5005CC1D4 /* TiltSensorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEF2EBD62DA86FD5005CC1D4 /* TiltSensorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF2EBE72DA86FD5005CC1D4 /* Build configuration list for PBXNativeTarget "TiltSensorDemoUITests" */;
+			buildPhases = (
+				FEF2EBD32DA86FD5005CC1D4 /* Sources */,
+				FEF2EBD42DA86FD5005CC1D4 /* Frameworks */,
+				FEF2EBD52DA86FD5005CC1D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEF2EBD92DA86FD5005CC1D4 /* PBXTargetDependency */,
+			);
+			name = TiltSensorDemoUITests;
+			productName = TiltSensorDemoUITests;
+			productReference = FEF2EBD72DA86FD5005CC1D4 /* TiltSensorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEF2EBAF2DA86FD2005CC1D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FEF2EBB62DA86FD2005CC1D4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FEF2EBCC2DA86FD5005CC1D4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FEF2EBB62DA86FD2005CC1D4;
+					};
+					FEF2EBD62DA86FD5005CC1D4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FEF2EBB62DA86FD2005CC1D4;
+					};
+				};
+			};
+			buildConfigurationList = FEF2EBB22DA86FD2005CC1D4 /* Build configuration list for PBXProject "TiltSensorDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEF2EBAE2DA86FD2005CC1D4;
+			productRefGroup = FEF2EBB82DA86FD2005CC1D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEF2EBB62DA86FD2005CC1D4 /* TiltSensorDemo */,
+				FEF2EBCC2DA86FD5005CC1D4 /* TiltSensorDemoTests */,
+				FEF2EBD62DA86FD5005CC1D4 /* TiltSensorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEF2EBB52DA86FD2005CC1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF2EBC42DA86FD5005CC1D4 /* Assets.xcassets in Resources */,
+				FEF2EBC72DA86FD5005CC1D4 /* Base in Resources */,
+				FEF2EBC22DA86FD2005CC1D4 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF2EBCB2DA86FD5005CC1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF2EBD52DA86FD5005CC1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF2EBB32DA86FD2005CC1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF2EBBF2DA86FD2005CC1D4 /* ViewController.swift in Sources */,
+				FEF2EBBB2DA86FD2005CC1D4 /* AppDelegate.swift in Sources */,
+				FEF2EBBD2DA86FD2005CC1D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF2EBC92DA86FD5005CC1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF2EBD22DA86FD5005CC1D4 /* TiltSensorDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF2EBD32DA86FD5005CC1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF2EBDE2DA86FD5005CC1D4 /* TiltSensorDemoUITestsLaunchTests.swift in Sources */,
+				FEF2EBDC2DA86FD5005CC1D4 /* TiltSensorDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEF2EBCF2DA86FD5005CC1D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEF2EBB62DA86FD2005CC1D4 /* TiltSensorDemo */;
+			targetProxy = FEF2EBCE2DA86FD5005CC1D4 /* PBXContainerItemProxy */;
+		};
+		FEF2EBD92DA86FD5005CC1D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEF2EBB62DA86FD2005CC1D4 /* TiltSensorDemo */;
+			targetProxy = FEF2EBD82DA86FD5005CC1D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEF2EBC02DA86FD2005CC1D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF2EBC12DA86FD2005CC1D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEF2EBC52DA86FD5005CC1D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF2EBC62DA86FD5005CC1D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEF2EBDF2DA86FD5005CC1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEF2EBE02DA86FD5005CC1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEF2EBE22DA86FD5005CC1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H7C74GB59;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TiltSensorDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSE562.TiltSensorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEF2EBE32DA86FD5005CC1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H7C74GB59;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TiltSensorDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSE562.TiltSensorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEF2EBE52DA86FD5005CC1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H7C74GB59;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSE562.TiltSensorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiltSensorDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TiltSensorDemo";
+			};
+			name = Debug;
+		};
+		FEF2EBE62DA86FD5005CC1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H7C74GB59;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSE562.TiltSensorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiltSensorDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TiltSensorDemo";
+			};
+			name = Release;
+		};
+		FEF2EBE82DA86FD5005CC1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H7C74GB59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSE562.TiltSensorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiltSensorDemo;
+			};
+			name = Debug;
+		};
+		FEF2EBE92DA86FD5005CC1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H7C74GB59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSE562.TiltSensorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiltSensorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEF2EBB22DA86FD2005CC1D4 /* Build configuration list for PBXProject "TiltSensorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF2EBDF2DA86FD5005CC1D4 /* Debug */,
+				FEF2EBE02DA86FD5005CC1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF2EBE12DA86FD5005CC1D4 /* Build configuration list for PBXNativeTarget "TiltSensorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF2EBE22DA86FD5005CC1D4 /* Debug */,
+				FEF2EBE32DA86FD5005CC1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF2EBE42DA86FD5005CC1D4 /* Build configuration list for PBXNativeTarget "TiltSensorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF2EBE52DA86FD5005CC1D4 /* Debug */,
+				FEF2EBE62DA86FD5005CC1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF2EBE72DA86FD5005CC1D4 /* Build configuration list for PBXNativeTarget "TiltSensorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF2EBE82DA86FD5005CC1D4 /* Debug */,
+				FEF2EBE92DA86FD5005CC1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEF2EBAF2DA86FD2005CC1D4 /* Project object */;
+}
