@@ -16,6 +16,10 @@
 		FEF2EBD22DA86FD5005CC1D4 /* TiltSensorDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EBD12DA86FD5005CC1D4 /* TiltSensorDemoTests.swift */; };
 		FEF2EBDC2DA86FD5005CC1D4 /* TiltSensorDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EBDB2DA86FD5005CC1D4 /* TiltSensorDemoUITests.swift */; };
 		FEF2EBDE2DA86FD5005CC1D4 /* TiltSensorDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EBDD2DA86FD5005CC1D4 /* TiltSensorDemoUITestsLaunchTests.swift */; };
+		FEF2EBED2DB06673005CC1D4 /* SensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EBEC2DB06673005CC1D4 /* SensorData.swift */; };
+		FEF2EBEF2DB179FC005CC1D4 /* SensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EBEE2DB179FC005CC1D4 /* SensorManager.swift */; };
+		FEF2EBF32DB186E3005CC1D4 /* CalibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EBF22DB186E3005CC1D4 /* CalibrationManager.swift */; };
+		FEF2EBF52DB2C7AF005CC1D4 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EBF42DB2C7AF005CC1D4 /* WaveformView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		FEF2EBD72DA86FD5005CC1D4 /* TiltSensorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiltSensorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF2EBDB2DA86FD5005CC1D4 /* TiltSensorDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltSensorDemoUITests.swift; sourceTree = "<group>"; };
 		FEF2EBDD2DA86FD5005CC1D4 /* TiltSensorDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltSensorDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEF2EBEC2DB06673005CC1D4 /* SensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorData.swift; sourceTree = "<group>"; };
+		FEF2EBEE2DB179FC005CC1D4 /* SensorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorManager.swift; sourceTree = "<group>"; };
+		FEF2EBF22DB186E3005CC1D4 /* CalibrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationManager.swift; sourceTree = "<group>"; };
+		FEF2EBF42DB2C7AF005CC1D4 /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				FEF2EBC32DA86FD5005CC1D4 /* Assets.xcassets */,
 				FEF2EBC52DA86FD5005CC1D4 /* LaunchScreen.storyboard */,
 				FEF2EBC82DA86FD5005CC1D4 /* Info.plist */,
+				FEF2EBEC2DB06673005CC1D4 /* SensorData.swift */,
+				FEF2EBEE2DB179FC005CC1D4 /* SensorManager.swift */,
+				FEF2EBF22DB186E3005CC1D4 /* CalibrationManager.swift */,
+				FEF2EBF42DB2C7AF005CC1D4 /* WaveformView.swift */,
 			);
 			path = TiltSensorDemo;
 			sourceTree = "<group>";
@@ -260,7 +272,11 @@
 			files = (
 				FEF2EBBF2DA86FD2005CC1D4 /* ViewController.swift in Sources */,
 				FEF2EBBB2DA86FD2005CC1D4 /* AppDelegate.swift in Sources */,
+				FEF2EBF52DB2C7AF005CC1D4 /* WaveformView.swift in Sources */,
+				FEF2EBEF2DB179FC005CC1D4 /* SensorManager.swift in Sources */,
 				FEF2EBBD2DA86FD2005CC1D4 /* SceneDelegate.swift in Sources */,
+				FEF2EBF32DB186E3005CC1D4 /* CalibrationManager.swift in Sources */,
+				FEF2EBED2DB06673005CC1D4 /* SensorData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
