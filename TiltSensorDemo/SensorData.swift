@@ -7,7 +7,6 @@
 import Foundation
 
 struct DataSaver {
-    // 保存原始数据和计算结果
     static func saveAllData(accelSamples: [(x: Double, y: Double, z: Double)],
                            gyroSamples: [(x: Double, y: Double, z: Double)],
                            accelBias: (x: Double, y: Double, z: Double),
@@ -22,14 +21,14 @@ struct DataSaver {
                    filename: "\(prefix)_results.csv")
     }
     
-    // 生成时间戳前缀
+    // timestamp
     private static func generateFilenamePrefix() -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyyMMdd_HHmmss"
         return formatter.string(from: Date())
     }
     
-    // 保存原始数据
+    // save raw data
     private static func saveRawData(accel: [(x: Double, y: Double, z: Double)],
                                    gyro: [(x: Double, y: Double, z: Double)],
                                    filename: String) {
@@ -46,7 +45,7 @@ struct DataSaver {
         saveToFile(content: csv, filename: filename)
     }
     
-    // save results
+    // save calculated results
     private static func saveResults(accelBias: (x: Double, y: Double, z: Double),
                                     accelVar: (x: Double, y: Double, z: Double),
                                     gyroBias: (x: Double, y: Double, z: Double),

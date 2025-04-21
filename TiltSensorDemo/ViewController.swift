@@ -83,18 +83,18 @@ class ViewController: UIViewController {
     
     
     private func startMeasurement(mode: String) {
-        // 重置记录
+        // reset
         measureStartTime = Date()
         measureSamples.removeAll()
         currentMode = mode
         
-        // 60秒后自动保存（不停止测量）
+        // save after 60s
         DispatchQueue.main.asyncAfter(deadline: .now() + 60) { [weak self] in
             guard let self = self else { return }
             let filename = "\(Date().timeIntervalSince1970)_\(self.currentMode).csv"
             DataSaver.saveMeasurementData(data: self.measureSamples, filename: filename)
             
-            // 继续记录新数据（可选）
+            
             self.measureStartTime = Date()
             self.measureSamples.removeAll()
         }

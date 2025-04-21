@@ -8,7 +8,7 @@
 import CoreMotion
 
 class SensorManager {
-    // MARK: - 配置参数
+    // configuration
     let motionManager = CMMotionManager()
     var currentAngle: Double = 0.0
     var lastUpdateTime = Date()
@@ -20,14 +20,11 @@ class SensorManager {
         motionManager.gyroUpdateInterval = 0.01
     }
     
-    // MARK: - 校准数据
     var accelBias: (x: Double, y: Double, z: Double) = (0,0,0)
     var gyroBias: (x: Double, y: Double, z: Double) = (0,0,0)
     
-    // MARK: - 回调闭包
     var onAngleUpdate: ((Double) -> Void)?
     
-    // MARK: - 传感器控制
     func startAccelerometerOnly() {
             stopAllSensors()
             
@@ -38,9 +35,9 @@ class SensorManager {
                 let y = data.acceleration.y - self.accelBias.y
                 let z = data.acceleration.z - self.accelBias.z
                 
-                // 计算俯仰角
+                //calculate pitch
                 let pitch = atan2(y, sqrt(x*x + z*z)) * 180 / .pi
-                let tiltAngle = -pitch // 转换为设备长轴与水平面的夹角
+                let tiltAngle = -pitch
                 
                 self.onAngleUpdate?(tiltAngle)
             }
@@ -57,7 +54,7 @@ class SensorManager {
                 let dt = Date().timeIntervalSince(self.lastUpdateTime)
                 self.lastUpdateTime = Date()
                 
-                // 积分绕X轴的角速度
+                // integral
                 let rateX = data.rotationRate.x - self.gyroBias.x
                 self.currentAngle += rateX * dt * 180 / .pi
                 
@@ -79,7 +76,7 @@ class SensorManager {
                 let z = data.acceleration.z - self.accelBias.z
                 
                 let pitch = atan2(y, sqrt(x*x + z*z)) * 180 / .pi
-                lastAccelAngle = -pitch // 转换基准
+                lastAccelAngle = -pitch
             }
             
             motionManager.startGyroUpdates(to: .main) { [weak self] data, _ in
